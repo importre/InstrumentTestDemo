@@ -1,8 +1,12 @@
 package io.github.importre.android.instrumenttestdemo;
 
 import android.app.ActionBar;
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.content.res.Resources;
 import android.test.ActivityInstrumentationTestCase2;
 import android.util.Log;
+import android.view.View;
 
 public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity> {
 
@@ -47,5 +51,18 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
 
         final int naviMode = actionBar.getNavigationMode();
         assertEquals(ActionBar.NAVIGATION_MODE_STANDARD, naviMode);
+    }
+
+    public void testShouldHaveContainers() {
+        Resources resources = activity.getResources();
+        boolean hasTwoPanes = resources.getBoolean(R.bool.has_two_panes);
+
+        View main = activity.findViewById(R.id.main_container);
+        assertNotNull(main);
+
+        if (hasTwoPanes) {
+            View detail = activity.findViewById(R.id.detail_container);
+            assertNotNull(detail);
+        }
     }
 }
