@@ -29,7 +29,7 @@ public class MainFragmentTest extends ActivityInstrumentationTestCase2<MainActiv
         fragment = (MainFragment) fm.findFragmentByTag(MainFragment.TAG);
     }
 
-    public void testGetViewMuseBeNotNull() {
+    public void testGetViewMustBeNotNull() {
         View view = fragment.getView();
         assertNotNull(view);
     }
