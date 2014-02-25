@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="io.github.importre.android.instrumenttestdemo.test" tests="5" failures="0" errors="0" time="2.916" timestamp="2014-02-25T14:09:43" hostname="localhost">
+  <properties />
+  <testcase name="testNavigationModeShouldBeStandard" classname="io.github.importre.android.instrumenttestdemo.MainActivityTest" time="0.49" />
+  <testcase name="testShouldHaveContainers" classname="io.github.importre.android.instrumenttestdemo.MainActivityTest" time="0.413" />
+  <testcase name="testShouldHaveTitleInActionBar" classname="io.github.importre.android.instrumenttestdemo.MainActivityTest" time="0.517" />
+  <testcase name="testGetViewMustBeNotNull" classname="io.github.importre.android.instrumenttestdemo.MainFragmentTest" time="0.388" />
+  <testcase name="testShouldHaveListView" classname="io.github.importre.android.instrumenttestdemo.MainFragmentTest" time="1.056" />
+</testsuite>
