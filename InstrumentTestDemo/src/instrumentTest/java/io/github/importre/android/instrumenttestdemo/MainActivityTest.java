@@ -1,8 +1,6 @@
 package io.github.importre.android.instrumenttestdemo;
 
 import android.app.ActionBar;
-import android.app.Fragment;
-import android.app.FragmentManager;
 import android.content.res.Resources;
 import android.test.ActivityInstrumentationTestCase2;
 import android.util.Log;

@@ -4,8 +4,6 @@ import android.app.FragmentManager;
 import android.test.ActivityInstrumentationTestCase2;
 import android.view.View;
 
-import com.squareup.spoon.Spoon;
-
 public class AppListFragmentTest extends ActivityInstrumentationTestCase2<AppListActivity> {
 
     private AppListActivity activity;
