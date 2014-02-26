@@ -27,6 +27,7 @@ public class MainFragmentTest extends ActivityInstrumentationTestCase2<MainActiv
 
         FragmentManager fm = activity.getFragmentManager();
         fragment = (MainFragment) fm.findFragmentByTag(MainFragment.TAG);
+        assertNotNull(fragment);
     }
 
     public void testGetViewMustBeNotNull() {

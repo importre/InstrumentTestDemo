@@ -18,6 +18,7 @@ allprojects {
 task spoon(type: Exec, dependsOn: ['InstrumentTestDemo:assembleDebug', 'InstrumentTestDemo:assembleDebugTest']) {
     commandLine 'java',
             '-jar', 'spoon-runner-1.1.1-jar-with-dependencies.jar',
+            '--title', 'Instrumentation Test Demo',
             '--output', 'pages',
             '--apk', 'InstrumentTestDemo/build/apk/InstrumentTestDemo-debug-unaligned.apk',
             '--test-apk', 'InstrumentTestDemo/build/apk/InstrumentTestDemo-debug-test-unaligned.apk'

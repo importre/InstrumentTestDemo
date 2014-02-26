@@ -7,13 +7,13 @@
     android:layout_marginTop="@dimen/activity_vertical_margin"
     android:layout_marginBottom="@dimen/activity_vertical_margin"
     android:orientation="horizontal"
-    android:weightSum="2"
+    android:weightSum="3"
     tools:context="io.github.importre.android.instrumenttestdemo.MainActivity"
     tools:ignore="MergeRootFrame">
 
     <FrameLayout
         android:id="@+id/main_container"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
