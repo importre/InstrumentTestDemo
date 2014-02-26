@@ -23,7 +23,7 @@ public class AppListTaskerTest extends ActivityInstrumentationTestCase2<AppListA
     }
 
     public void testGatherInstalledAppList() throws Exception {
-        List<AppItem> items =  tasker.get(3000, TimeUnit.MILLISECONDS);
+        List<AppItem> items =  tasker.execute().get();
         assertNotNull(items);
     }
 }
