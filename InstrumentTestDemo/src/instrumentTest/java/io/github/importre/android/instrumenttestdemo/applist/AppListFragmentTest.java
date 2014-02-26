@@ -29,7 +29,5 @@ public class AppListFragmentTest extends ActivityInstrumentationTestCase2<AppLis
     public void testGetViewMustBeNotNull() {
         View view = fragment.getView();
         assertNotNull(view);
-
-        Spoon.screenshot(activity, "initial_state");
     }
 }
