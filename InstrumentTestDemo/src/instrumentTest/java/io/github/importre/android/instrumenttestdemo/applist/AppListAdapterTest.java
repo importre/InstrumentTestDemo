@@ -30,7 +30,7 @@ public class AppListAdapterTest extends ActivityInstrumentationTestCase2<AppList
 
     private AppItem addOneItem() {
         Drawable icon = activity.getResources().getDrawable(R.drawable.ic_launcher);
-        AppItem item = new AppItem(icon, "item", false);
+        AppItem item = new AppItem(icon, "item");
         adapter.add(item);
         return item;
     }
