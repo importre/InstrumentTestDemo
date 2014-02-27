@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.spoon/spoon-client/1.0.4/5e64f8c39ab1d16dccb00b30ca6d64a58d5010ec/spoon-client-1.0.4.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.spoon/spoon-client/1.0.4/59d205d83554a127cdc191489f285e8b8cc0f2f1/spoon-client-1.0.4-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

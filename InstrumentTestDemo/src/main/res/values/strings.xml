@@ -5,6 +5,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="applist">Application List</string>
-    <string name="applist_title">설치된 앱 (총 %d개)</string>
+    <string name="applist_title">%d</string>
 
 </resources>

@@ -18,7 +18,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="io.github.importre.android.instrumenttestdemo.applist.AppListActivity"/>
+        <activity
+            android:name="io.github.importre.android.instrumenttestdemo.applist.AppListActivity"
+            android:label="@string/applist" />
     </application>
 
 </manifest>

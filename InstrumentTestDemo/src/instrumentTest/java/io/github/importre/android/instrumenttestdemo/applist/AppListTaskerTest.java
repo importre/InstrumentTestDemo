@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class AppListTaskerTest extends ActivityInstrumentationTestCase2<AppListActivity> {
 
-    private AppListTasker tasker;
+    private AppListFragment.AppListTasker tasker;
 
     public AppListTaskerTest() {
         super(AppListActivity.class);
@@ -18,7 +18,8 @@ public class AppListTaskerTest extends ActivityInstrumentationTestCase2<AppListA
     protected void setUp() throws Exception {
         super.setUp();
 
-        tasker = new AppListTasker();
+        AppListFragment fragment = AppListFragment.newInstance();
+        tasker = fragment.new AppListTasker();
         assertNotNull(tasker);
     }
 
