@@ -1,7 +1,7 @@
 {
-  "title": "Spoon Execution",
-  "started": 1393337373338,
-  "duration": 9,
+  "title": "Instrumentation Test Demo",
+  "started": 1393489703042,
+  "duration": 56,
   "results": {
     "048233d1d151e3cc": {
       "installFailed": false,
@@ -27,128 +27,137 @@
             "log": [
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 23:09:37.392",
+                "mTime": "02-27 17:28:32.041",
                 "mMessage": "started: testNavigationModeShouldBeStandard(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 23:09:37.402",
+                "mTime": "02-27 17:28:32.051",
                 "mMessage": "setUp"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27411",
+                "mPid": "22004",
+                "mTid": "22008",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:37.512",
-                "mMessage": "GC_CONCURRENT freed 173K, 7% free 3339K/3584K, paused 2ms+1ms, total 19ms"
+                "mTime": "02-27 17:28:32.121",
+                "mMessage": "GC_CONCURRENT freed 226K, 9% free 3347K/3644K, paused 2ms+2ms, total 21ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27407",
+                "mPid": "22004",
+                "mTid": "22004",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:37.522",
-                "mMessage": "GC_FOR_ALLOC freed 38K, 8% free 3404K/3684K, paused 10ms, total 10ms"
+                "mTime": "02-27 17:28:32.121",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 10ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22004",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:32.131",
+                "mMessage": "GC_FOR_ALLOC freed 41K, 10% free 3405K/3744K, paused 13ms, total 13ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27407",
+                "mPid": "22004",
+                "mTid": "22004",
                 "mAppName": "",
                 "mTag": "dalvikvm-heap",
-                "mTime": "02-25 23:09:37.522",
-                "mMessage": "Grow heap (frag case) to 4.457MB for 1127536-byte allocation"
+                "mTime": "02-27 17:28:32.141",
+                "mMessage": "Grow heap (frag case) to 4.461MB for 1127536-byte allocation"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27416",
+                "mPid": "22004",
+                "mTid": "22013",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:37.532",
-                "mMessage": "GC_FOR_ALLOC freed 0K, 6% free 4505K/4788K, paused 11ms, total 11ms"
+                "mTime": "02-27 17:28:32.151",
+                "mMessage": "GC_FOR_ALLOC freed \u003c1K, 8% free 4506K/4848K, paused 16ms, total 16ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27411",
+                "mPid": "22004",
+                "mTid": "22008",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:37.562",
-                "mMessage": "GC_CONCURRENT freed 2K, 6% free 4503K/4788K, paused 3ms+2ms, total 23ms"
+                "mTime": "02-27 17:28:32.161",
+                "mMessage": "GC_CONCURRENT freed 0K, 8% free 4506K/4848K, paused 3ms+1ms, total 13ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27407",
+                "mPid": "22004",
+                "mTid": "22004",
                 "mAppName": "",
                 "mTag": "Adreno-EGL",
-                "mTime": "02-25 23:09:37.602",
+                "mTime": "02-27 17:28:32.221",
                 "mMessage": "\u003cqeglDrvAPI_eglInitialize:320\u003e: EGL 1.4 QUALCOMM Build: I0404c4692afb8623f95c43aeb6d5e13ed4b30ddbDate: 11/06/13"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27407",
+                "mPid": "22004",
+                "mTid": "22004",
                 "mAppName": "",
                 "mTag": "OpenGLRenderer",
-                "mTime": "02-25 23:09:37.632",
+                "mTime": "02-27 17:28:32.281",
                 "mMessage": "Enabling debug mode 0"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 23:09:37.713",
+                "mTime": "02-27 17:28:32.351",
                 "mMessage": "testNavigationModeShouldBeStandard"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 23:09:37.713",
+                "mTime": "02-27 17:28:32.351",
                 "mMessage": "tearDown"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:37.863",
-                "mMessage": "GC_EXPLICIT freed 20K, 5% free 4551K/4788K, paused 1ms+1ms, total 18ms"
+                "mTime": "02-27 17:28:32.391",
+                "mMessage": "GC_EXPLICIT freed 19K, 7% free 4555K/4848K, paused 1ms+2ms, total 18ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:37.893",
-                "mMessage": "GC_EXPLICIT freed 4K, 6% free 4547K/4788K, paused 2ms+3ms, total 28ms"
+                "mTime": "02-27 17:28:32.411",
+                "mMessage": "GC_EXPLICIT freed 4K, 7% free 4551K/4848K, paused 1ms+2ms, total 17ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 23:09:37.893",
+                "mTime": "02-27 17:28:32.411",
                 "mMessage": "finished: testNavigationModeShouldBeStandard(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
               }
             ]
@@ -166,56 +175,56 @@
             "log": [
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 23:09:37.903",
+                "mTime": "02-27 17:28:32.411",
                 "mMessage": "started: testShouldHaveContainers(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 23:09:37.903",
+                "mTime": "02-27 17:28:32.411",
                 "mMessage": "setUp"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 23:09:38.133",
+                "mTime": "02-27 17:28:32.582",
                 "mMessage": "tearDown"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:38.283",
-                "mMessage": "GC_EXPLICIT freed 57K, 4% free 4605K/4788K, paused 1ms+1ms, total 17ms"
+                "mTime": "02-27 17:28:32.702",
+                "mMessage": "GC_EXPLICIT freed 57K, 5% free 4610K/4848K, paused 2ms+2ms, total 18ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:38.303",
-                "mMessage": "GC_EXPLICIT freed 5K, 4% free 4600K/4788K, paused 1ms+2ms, total 18ms"
+                "mTime": "02-27 17:28:32.742",
+                "mMessage": "GC_EXPLICIT freed 5K, 6% free 4605K/4848K, paused 4ms+2ms, total 41ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 23:09:38.303",
+                "mTime": "02-27 17:28:32.742",
                 "mMessage": "finished: testShouldHaveContainers(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
               }
             ]
@@ -233,65 +242,65 @@
             "log": [
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 23:09:38.303",
+                "mTime": "02-27 17:28:32.752",
                 "mMessage": "started: testShouldHaveTitleInActionBar(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 23:09:38.313",
+                "mTime": "02-27 17:28:32.752",
                 "mMessage": "setUp"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 23:09:38.634",
+                "mTime": "02-27 17:28:32.962",
                 "mMessage": "testShouldHaveTitleInActionBar"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 23:09:38.634",
+                "mTime": "02-27 17:28:32.962",
                 "mMessage": "tearDown"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:38.794",
-                "mMessage": "GC_EXPLICIT freed 58K, 3% free 4659K/4788K, paused 2ms+4ms, total 30ms"
+                "mTime": "02-27 17:28:33.252",
+                "mMessage": "GC_EXPLICIT freed 56K, 4% free 4663K/4848K, paused 4ms+5ms, total 51ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:38.814",
-                "mMessage": "GC_EXPLICIT freed 5K, 3% free 4654K/4788K, paused 3ms+2ms, total 20ms"
+                "mTime": "02-27 17:28:33.272",
+                "mMessage": "GC_EXPLICIT freed 6K, 4% free 4657K/4848K, paused 1ms+2ms, total 18ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 23:09:38.814",
+                "mTime": "02-27 17:28:33.272",
                 "mMessage": "finished: testShouldHaveTitleInActionBar(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
               }
             ]
@@ -309,38 +318,38 @@
             "log": [
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 23:09:38.824",
+                "mTime": "02-27 17:28:33.282",
                 "mMessage": "started: testGetViewMustBeNotNull(io.github.importre.android.instrumenttestdemo.MainFragmentTest)"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:39.204",
-                "mMessage": "GC_EXPLICIT freed 105K, 4% free 4664K/4832K, paused 3ms+2ms, total 20ms"
+                "mTime": "02-27 17:28:33.553",
+                "mMessage": "GC_EXPLICIT freed 104K, 4% free 4668K/4848K, paused 2ms+2ms, total 23ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:39.224",
-                "mMessage": "GC_EXPLICIT freed 9K, 4% free 4654K/4832K, paused 3ms+2ms, total 20ms"
+                "mTime": "02-27 17:28:33.573",
+                "mMessage": "GC_EXPLICIT freed 9K, 4% free 4658K/4848K, paused 3ms+2ms, total 24ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 23:09:39.224",
+                "mTime": "02-27 17:28:33.573",
                 "mMessage": "finished: testGetViewMustBeNotNull(io.github.importre.android.instrumenttestdemo.MainFragmentTest)"
               }
             ]
@@ -353,96 +362,2072 @@
           },
           {
             "status": "PASS",
-            "duration": 1,
+            "duration": 0,
             "screenshots": [
-              "/Users/importre/Projects/InstrumentTestDemo/spoon-output/image/048233d1d151e3cc/io.github.importre.android.instrumenttestdemo.MainFragmentTest/testShouldHaveListView/1393337379583_initial_state.png"
+              "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/048233d1d151e3cc/io.github.importre.android.instrumenttestdemo.MainFragmentTest/testShouldHaveListView/1393489713785_initial_state.png"
             ],
             "log": [
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 23:09:39.234",
+                "mTime": "02-27 17:28:33.583",
                 "mMessage": "started: testShouldHaveListView(io.github.importre.android.instrumenttestdemo.MainFragmentTest)"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:39.585",
-                "mMessage": "GC_FOR_ALLOC freed 123K, 4% free 4687K/4876K, paused 12ms, total 12ms"
+                "mTime": "02-27 17:28:33.793",
+                "mMessage": "GC_FOR_ALLOC freed 132K, 5% free 4692K/4892K, paused 12ms, total 12ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "dalvikvm-heap",
-                "mTime": "02-25 23:09:39.595",
-                "mMessage": "Grow heap (frag case) to 8.105MB for 3637264-byte allocation"
+                "mTime": "02-27 17:28:33.793",
+                "mMessage": "Grow heap (frag case) to 8.114MB for 3637264-byte allocation"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27416",
+                "mPid": "22004",
+                "mTid": "22013",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:39.615",
-                "mMessage": "GC_FOR_ALLOC freed 7K, 3% free 8232K/8432K, paused 16ms, total 16ms"
+                "mTime": "02-27 17:28:33.813",
+                "mMessage": "GC_FOR_ALLOC freed \u003c1K, 3% free 8243K/8448K, paused 16ms, total 16ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22008",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:33.833",
+                "mMessage": "GC_CONCURRENT freed 12K, 3% free 8246K/8448K, paused 2ms+2ms, total 16ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "Spoon",
-                "mTime": "02-25 23:09:40.115",
+                "mTime": "02-27 17:28:34.243",
                 "mMessage": "Captured screenshot \u0027initial_state\u0027."
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:40.295",
-                "mMessage": "GC_EXPLICIT freed 3686K, 7% free 4561K/4872K, paused 1ms+2ms, total 20ms"
+                "mTime": "02-27 17:28:34.363",
+                "mMessage": "GC_EXPLICIT freed 3614K, 6% free 4632K/4892K, paused 1ms+2ms, total 19ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 23:09:40.315",
-                "mMessage": "GC_EXPLICIT freed 9K, 7% free 4552K/4872K, paused 2ms+2ms, total 20ms"
+                "mTime": "02-27 17:28:34.394",
+                "mMessage": "GC_EXPLICIT freed 4K, 6% free 4627K/4892K, paused 2ms+2ms, total 19ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "27407",
-                "mTid": "27421",
+                "mPid": "22004",
+                "mTid": "22017",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 23:09:40.315",
+                "mTime": "02-27 17:28:34.394",
                 "mMessage": "finished: testShouldHaveListView(io.github.importre.android.instrumenttestdemo.MainFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testAddItem"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:34.404",
+                "mMessage": "started: testAddItem(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22008",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.754",
+                "mMessage": "GC_CONCURRENT freed 127K, 4% free 5002K/5200K, paused 1ms+4ms, total 16ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.894",
+                "mMessage": "GC_EXPLICIT freed 38K, 3% free 5511K/5676K, paused 3ms+2ms, total 23ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22056",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.894",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 4ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.934",
+                "mMessage": "GC_EXPLICIT freed 16K, 4% free 5724K/5916K, paused 1ms+6ms, total 29ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:34.934",
+                "mMessage": "finished: testAddItem(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetCount"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:34.934",
+                "mMessage": "started: testGetCount(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22008",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:35.124",
+                "mMessage": "GC_CONCURRENT freed 52K, 3% free 6493K/6636K, paused 1ms+2ms, total 14ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22056",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:35.124",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:35.234",
+                "mMessage": "GC_EXPLICIT freed 36K, 3% free 7020K/7168K, paused 2ms+2ms, total 21ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:35.254",
+                "mMessage": "GC_EXPLICIT freed 14K, 2% free 7090K/7208K, paused 3ms+2ms, total 22ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:35.254",
+                "mMessage": "finished: testGetCount(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetItem"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:35.264",
+                "mMessage": "started: testGetItem(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:35.735",
+                "mMessage": "GC_EXPLICIT freed 367K, 6% free 7162K/7596K, paused 1ms+9ms, total 55ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:35.795",
+                "mMessage": "GC_EXPLICIT freed 55K, 7% free 7107K/7596K, paused 3ms+2ms, total 49ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:35.795",
+                "mMessage": "finished: testGetItem(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetView"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:35.795",
+                "mMessage": "started: testGetView(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:36.115",
+                "mMessage": "GC_EXPLICIT freed 193K, 6% free 7202K/7596K, paused 3ms+3ms, total 31ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:36.135",
+                "mMessage": "GC_EXPLICIT freed 13K, 6% free 7189K/7596K, paused 3ms+2ms, total 22ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:36.135",
+                "mMessage": "finished: testGetView(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetViewRecycle"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:36.145",
+                "mMessage": "started: testGetViewRecycle(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:36.486",
+                "mMessage": "GC_EXPLICIT freed 248K, 6% free 7206K/7596K, paused 1ms+2ms, total 23ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:36.516",
+                "mMessage": "GC_EXPLICIT freed 15K, 6% free 7190K/7596K, paused 2ms+3ms, total 21ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:36.516",
+                "mMessage": "finished: testGetViewRecycle(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetViewRecycleUsingViewHolderPattern"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:36.516",
+                "mMessage": "started: testGetViewRecycleUsingViewHolderPattern(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:36.856",
+                "mMessage": "GC_EXPLICIT freed 269K, 6% free 7187K/7596K, paused 1ms+2ms, total 22ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:36.876",
+                "mMessage": "GC_EXPLICIT freed 18K, 6% free 7168K/7596K, paused 2ms+2ms, total 22ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:36.876",
+                "mMessage": "finished: testGetViewRecycleUsingViewHolderPattern(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest",
+            "methodName": "testGetViewMustBeNotNull"
+          },
+          {
+            "status": "PASS",
+            "duration": 1,
+            "screenshots": [
+              "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/048233d1d151e3cc/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testGetViewMustBeNotNull/1393489717138_initial_state.png"
+            ],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:36.886",
+                "mMessage": "started: testGetViewMustBeNotNull(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:37.136",
+                "mMessage": "GC_FOR_ALLOC freed 258K, 6% free 7185K/7596K, paused 13ms, total 13ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "02-27 17:28:37.146",
+                "mMessage": "Grow heap (frag case) to 10.548MB for 3637264-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:37.156",
+                "mMessage": "GC_FOR_ALLOC freed 11K, 4% free 10725K/11152K, paused 13ms, total 13ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22008",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:37.186",
+                "mMessage": "GC_CONCURRENT freed 4K, 4% free 10722K/11152K, paused 2ms+17ms, total 31ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "02-27 17:28:37.787",
+                "mMessage": "Captured screenshot \u0027initial_state\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:37.917",
+                "mMessage": "GC_EXPLICIT freed 3779K, 9% free 6959K/7596K, paused 1ms+2ms, total 24ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:37.937",
+                "mMessage": "GC_EXPLICIT freed 20K, 9% free 6940K/7596K, paused 2ms+2ms, total 20ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:37.937",
+                "mMessage": "finished: testGetViewMustBeNotNull(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest",
+            "methodName": "testShouldShowEmptyMessage"
+          },
+          {
+            "status": "PASS",
+            "duration": 1,
+            "screenshots": [
+              "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/048233d1d151e3cc/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage/1393489718186_initial_state.png",
+              "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/048233d1d151e3cc/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage/1393489718798_clear_state.png"
+            ],
+            "animatedGif": "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/048233d1d151e3cc/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage.gif",
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:37.937",
+                "mMessage": "started: testShouldShowEmptyMessage(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:38.188",
+                "mMessage": "GC_FOR_ALLOC freed 150K, 7% free 7089K/7596K, paused 13ms, total 13ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "02-27 17:28:38.198",
+                "mMessage": "Grow heap (frag case) to 10.454MB for 3637264-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22008",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:38.238",
+                "mMessage": "GC_CONCURRENT freed 2K, 5% free 10638K/11152K, paused 4ms+4ms, total 39ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:38.238",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 35ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22013",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:38.238",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 36ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "02-27 17:28:38.788",
+                "mMessage": "Captured screenshot \u0027initial_state\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22004",
+                "mAppName": "",
+                "mTag": "AppListFragmentTest",
+                "mTime": "02-27 17:28:38.788",
+                "mMessage": "clear adapter"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:38.798",
+                "mMessage": "GC_FOR_ALLOC freed 3590K, 7% free 7074K/7596K, paused 15ms, total 15ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "02-27 17:28:38.808",
+                "mMessage": "Grow heap (frag case) to 10.440MB for 3637264-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:38.818",
+                "mMessage": "GC_FOR_ALLOC freed \u003c1K, 5% free 10626K/11152K, paused 14ms, total 14ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22008",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:38.848",
+                "mMessage": "GC_CONCURRENT freed 40K, 6% free 10587K/11152K, paused 5ms+3ms, total 21ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "02-27 17:28:39.289",
+                "mMessage": "Captured screenshot \u0027clear_state\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:39.419",
+                "mMessage": "GC_EXPLICIT freed 5969K, 40% free 4631K/7596K, paused 2ms+2ms, total 23ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:39.449",
+                "mMessage": "GC_EXPLICIT freed 25K, 40% free 4605K/7596K, paused 3ms+2ms, total 24ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:39.449",
+                "mMessage": "finished: testShouldShowEmptyMessage(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest",
+            "methodName": "testTitleText"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:39.459",
+                "mMessage": "started: testTitleText(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22008",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:39.619",
+                "mMessage": "GC_CONCURRENT freed 63K, 34% free 5039K/7596K, paused 1ms+3ms, total 15ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22008",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:39.769",
+                "mMessage": "GC_CONCURRENT freed 95K, 27% free 5567K/7596K, paused 3ms+4ms, total 37ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22075",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:39.769",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 19ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:39.769",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 12ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:39.799",
+                "mMessage": "GC_EXPLICIT freed 20K, 25% free 5738K/7596K, paused 4ms+2ms, total 31ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:39.819",
+                "mMessage": "GC_EXPLICIT freed 11K, 24% free 5843K/7596K, paused 1ms+3ms, total 20ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:39.819",
+                "mMessage": "finished: testTitleText(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListTaskerTest",
+            "methodName": "testGatherInstalledAppList"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:39.829",
+                "mMessage": "started: testGatherInstalledAppList(io.github.importre.android.instrumenttestdemo.applist.AppListTaskerTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22008",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:40.020",
+                "mMessage": "GC_CONCURRENT freed 51K, 13% free 6673K/7596K, paused 3ms+2ms, total 21ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22075",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:40.030",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 11ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:40.120",
+                "mMessage": "GC_EXPLICIT freed 2400K, 40% free 4622K/7596K, paused 2ms+2ms, total 22ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:40.170",
+                "mMessage": "GC_EXPLICIT freed 19K, 40% free 4603K/7596K, paused 4ms+6ms, total 48ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "22004",
+                "mTid": "22017",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:40.170",
+                "mMessage": "finished: testGatherInstalledAppList(io.github.importre.android.instrumenttestdemo.applist.AppListTaskerTest)"
               }
             ]
           }
         ]
       ],
-      "started": 1393337373935,
-      "duration": 3,
+      "started": 1393489703681,
+      "duration": 8,
       "exceptions": []
     },
     "192_168_56_101_5555": {
       "installFailed": false,
       "deviceDetails": {
-        "model": "Nexus 5 - 4.4.2 - API 19 - 1080x1920",
+        "model": "Nexus 4 - 4.2.2 - API 17 - 768x1280",
         "manufacturer": "Genymotion",
+        "version": "4.2.2",
+        "apiLevel": 17,
+        "language": "en",
+        "region": "US",
+        "isEmulator": false
+      },
+      "testResults": [
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.MainActivityTest",
+            "methodName": "testNavigationModeShouldBeStandard"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:25.005",
+                "mMessage": "started: testNavigationModeShouldBeStandard(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "MainActivityTest",
+                "mTime": "02-27 08:28:25.009",
+                "mMessage": "setUp"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1984",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:25.101",
+                "mMessage": "GC_CONCURRENT freed 237K, 4% free 8739K/9028K, paused 1ms+0ms, total 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "libEGL",
+                "mTime": "02-27 08:28:25.145",
+                "mMessage": "loaded /system/lib/egl/libEGL_emulation.so"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "",
+                "mTime": "02-27 08:28:25.145",
+                "mMessage": "HostConnection::get() New Host Connection established 0xb9546eb8, tid 1980"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "libEGL",
+                "mTime": "02-27 08:28:25.169",
+                "mMessage": "loaded /system/lib/egl/libGLESv1_CM_emulation.so"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "libEGL",
+                "mTime": "02-27 08:28:25.169",
+                "mMessage": "loaded /system/lib/egl/libGLESv2_emulation.so"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:28:25.205",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "OpenGLRenderer",
+                "mTime": "02-27 08:28:25.225",
+                "mMessage": "Enabling debug mode 0"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "MainActivityTest",
+                "mTime": "02-27 08:28:25.409",
+                "mMessage": "testNavigationModeShouldBeStandard"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "MainActivityTest",
+                "mTime": "02-27 08:28:25.409",
+                "mMessage": "tearDown"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:25.477",
+                "mMessage": "GC_EXPLICIT freed 18K, 4% free 8750K/9028K, paused 0ms+1ms, total 3ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:25.481",
+                "mMessage": "GC_EXPLICIT freed 2K, 4% free 8748K/9028K, paused 0ms+0ms, total 3ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:25.481",
+                "mMessage": "finished: testNavigationModeShouldBeStandard(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.MainActivityTest",
+            "methodName": "testShouldHaveContainers"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:25.481",
+                "mMessage": "started: testShouldHaveContainers(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "MainActivityTest",
+                "mTime": "02-27 08:28:25.485",
+                "mMessage": "setUp"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:28:25.601",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "MainActivityTest",
+                "mTime": "02-27 08:28:25.641",
+                "mMessage": "tearDown"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:25.713",
+                "mMessage": "GC_EXPLICIT freed 23K, 3% free 8808K/9028K, paused 1ms+0ms, total 3ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:25.717",
+                "mMessage": "GC_EXPLICIT freed 4K, 3% free 8804K/9028K, paused 0ms+0ms, total 2ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:25.717",
+                "mMessage": "finished: testShouldHaveContainers(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.MainActivityTest",
+            "methodName": "testShouldHaveTitleInActionBar"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:25.717",
+                "mMessage": "started: testShouldHaveTitleInActionBar(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "MainActivityTest",
+                "mTime": "02-27 08:28:25.717",
+                "mMessage": "setUp"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:28:25.781",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "MainActivityTest",
+                "mTime": "02-27 08:28:25.841",
+                "mMessage": "testShouldHaveTitleInActionBar"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "MainActivityTest",
+                "mTime": "02-27 08:28:25.841",
+                "mMessage": "tearDown"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:25.933",
+                "mMessage": "GC_EXPLICIT freed 22K, 2% free 8863K/9028K, paused 0ms+1ms, total 4ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:25.941",
+                "mMessage": "GC_EXPLICIT freed 4K, 2% free 8859K/9028K, paused 2ms+1ms, total 6ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:25.941",
+                "mMessage": "finished: testShouldHaveTitleInActionBar(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.MainFragmentTest",
+            "methodName": "testGetViewMustBeNotNull"
+          },
+          {
+            "status": "PASS",
+            "duration": 17,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:25.941",
+                "mMessage": "started: testGetViewMustBeNotNull(io.github.importre.android.instrumenttestdemo.MainFragmentTest)"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:28:26.105",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:43.837",
+                "mMessage": "GC_EXPLICIT freed 119K, 3% free 8822K/9028K, paused 1ms+1ms, total 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:43.845",
+                "mMessage": "GC_EXPLICIT freed 70K, 4% free 8752K/9028K, paused 1ms+0ms, total 6ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:43.845",
+                "mMessage": "finished: testGetViewMustBeNotNull(io.github.importre.android.instrumenttestdemo.MainFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.MainFragmentTest",
+            "methodName": "testShouldHaveListView"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [
+              "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/192_168_56_101_5555/io.github.importre.android.instrumenttestdemo.MainFragmentTest/testShouldHaveListView/1393489724097_initial_state.png"
+            ],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:43.845",
+                "mMessage": "started: testShouldHaveListView(io.github.importre.android.instrumenttestdemo.MainFragmentTest)"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:28:44.013",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:44.097",
+                "mMessage": "GC_FOR_ALLOC freed 48K, 3% free 8814K/9028K, paused 3ms, total 3ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "02-27 08:28:44.097",
+                "mMessage": "Grow heap (frag case) to 12.125MB for 3637260-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:44.101",
+                "mMessage": "GC_FOR_ALLOC freed 59K, 3% free 12307K/12584K, paused 3ms, total 3ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1984",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:44.105",
+                "mMessage": "GC_CONCURRENT freed \u003c1K, 3% free 12308K/12584K, paused 1ms+1ms, total 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "02-27 08:28:44.233",
+                "mMessage": "Captured screenshot \u0027initial_state\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:44.333",
+                "mMessage": "GC_EXPLICIT freed 3567K, 3% free 8754K/9024K, paused 1ms+0ms, total 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:44.333",
+                "mMessage": "GC_EXPLICIT freed \u003c1K, 3% free 8754K/9024K, paused 1ms+0ms, total 3ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:44.333",
+                "mMessage": "finished: testShouldHaveListView(io.github.importre.android.instrumenttestdemo.MainFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testAddItem"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:44.337",
+                "mMessage": "started: testAddItem(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "2006",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:44.413",
+                "mMessage": "GC_FOR_ALLOC freed 29K, 3% free 9105K/9300K, paused 11ms, total 11ms"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:28:44.429",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1984",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:44.457",
+                "mMessage": "GC_CONCURRENT freed 52K, 2% free 9446K/9608K, paused 3ms+1ms, total 12ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1984",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:44.529",
+                "mMessage": "GC_CONCURRENT freed 103K, 2% free 9746K/9928K, paused 0ms+1ms, total 3ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:44.657",
+                "mMessage": "GC_EXPLICIT freed 11K, 2% free 9743K/9928K, paused 1ms+1ms, total 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:44.661",
+                "mMessage": "GC_EXPLICIT freed \u003c1K, 2% free 9743K/9928K, paused 0ms+0ms, total 4ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:44.661",
+                "mMessage": "finished: testAddItem(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetCount"
+          },
+          {
+            "status": "PASS",
+            "duration": 10,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:44.665",
+                "mMessage": "started: testGetCount(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:28:44.917",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:54.829",
+                "mMessage": "GC_EXPLICIT freed 113K, 2% free 9812K/9980K, paused 0ms+1ms, total 4ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:54.833",
+                "mMessage": "GC_EXPLICIT freed 119K, 3% free 9692K/9980K, paused 0ms+0ms, total 5ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:54.833",
+                "mMessage": "finished: testGetCount(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetItem"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:54.833",
+                "mMessage": "started: testGetItem(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:28:55.013",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:55.145",
+                "mMessage": "GC_EXPLICIT freed 65K, 2% free 9810K/9980K, paused 0ms+0ms, total 3ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:55.149",
+                "mMessage": "GC_EXPLICIT freed 113K, 3% free 9697K/9980K, paused 1ms+0ms, total 4ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:55.149",
+                "mMessage": "finished: testGetItem(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetView"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:55.149",
+                "mMessage": "started: testGetView(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:28:55.229",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:55.401",
+                "mMessage": "GC_EXPLICIT freed 67K, 2% free 9815K/9980K, paused 2ms+0ms, total 8ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:28:55.405",
+                "mMessage": "GC_EXPLICIT freed 6K, 2% free 9809K/9980K, paused 0ms+1ms, total 3ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:55.405",
+                "mMessage": "finished: testGetView(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetViewRecycle"
+          },
+          {
+            "status": "PASS",
+            "duration": 17,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:28:55.405",
+                "mMessage": "started: testGetViewRecycle(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:28:55.533",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:13.373",
+                "mMessage": "GC_EXPLICIT freed 162K, 3% free 9833K/10048K, paused 0ms+1ms, total 6ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:13.377",
+                "mMessage": "GC_EXPLICIT freed \u003c1K, 3% free 9833K/10048K, paused 0ms+0ms, total 5ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:29:13.377",
+                "mMessage": "finished: testGetViewRecycle(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetViewRecycleUsingViewHolderPattern"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:29:13.377",
+                "mMessage": "started: testGetViewRecycleUsingViewHolderPattern(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:29:13.661",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:13.789",
+                "mMessage": "GC_EXPLICIT freed 200K, 3% free 9819K/10072K, paused 1ms+0ms, total 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:13.793",
+                "mMessage": "GC_EXPLICIT freed 114K, 4% free 9705K/10072K, paused 0ms+0ms, total 3ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:29:13.793",
+                "mMessage": "finished: testGetViewRecycleUsingViewHolderPattern(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest",
+            "methodName": "testGetViewMustBeNotNull"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [
+              "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/192_168_56_101_5555/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testGetViewMustBeNotNull/1393489754041_initial_state.png"
+            ],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:29:13.793",
+                "mMessage": "started: testGetViewMustBeNotNull(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:29:13.889",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.041",
+                "mMessage": "GC_FOR_ALLOC freed 81K, 3% free 9822K/10072K, paused 2ms, total 3ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "02-27 08:29:14.041",
+                "mMessage": "Grow heap (frag case) to 13.109MB for 3637260-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.045",
+                "mMessage": "GC_FOR_ALLOC freed 6K, 2% free 13368K/13628K, paused 2ms, total 2ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1984",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.045",
+                "mMessage": "GC_CONCURRENT freed 0K, 2% free 13368K/13628K, paused 1ms+0ms, total 3ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "02-27 08:29:14.157",
+                "mMessage": "Captured screenshot \u0027initial_state\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.217",
+                "mMessage": "GC_EXPLICIT freed 3567K, 3% free 9814K/10068K, paused 0ms+0ms, total 4ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.221",
+                "mMessage": "GC_EXPLICIT freed \u003c1K, 3% free 9814K/10068K, paused 0ms+1ms, total 3ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:29:14.221",
+                "mMessage": "finished: testGetViewMustBeNotNull(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest",
+            "methodName": "testShouldShowEmptyMessage"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [
+              "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/192_168_56_101_5555/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage/1393489754442_initial_state.png",
+              "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/192_168_56_101_5555/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage/1393489754564_clear_state.png"
+            ],
+            "animatedGif": "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/192_168_56_101_5555/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage.gif",
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:29:14.221",
+                "mMessage": "started: testShouldShowEmptyMessage(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:29:14.361",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.441",
+                "mMessage": "GC_FOR_ALLOC freed 78K, 2% free 9930K/10068K, paused 2ms, total 2ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "02-27 08:29:14.441",
+                "mMessage": "Grow heap (frag case) to 13.215MB for 3637260-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.445",
+                "mMessage": "GC_FOR_ALLOC freed 5K, 2% free 13476K/13624K, paused 2ms, total 2ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1984",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.449",
+                "mMessage": "GC_CONCURRENT freed 0K, 2% free 13476K/13624K, paused 1ms+1ms, total 3ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "02-27 08:29:14.561",
+                "mMessage": "Captured screenshot \u0027initial_state\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "AppListFragmentTest",
+                "mTime": "02-27 08:29:14.561",
+                "mMessage": "clear adapter"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.565",
+                "mMessage": "GC_FOR_ALLOC freed 3577K, 2% free 9924K/10068K, paused 4ms, total 4ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "02-27 08:29:14.565",
+                "mMessage": "Grow heap (frag case) to 13.209MB for 3637260-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.569",
+                "mMessage": "GC_FOR_ALLOC freed \u003c1K, 2% free 13476K/13624K, paused 3ms, total 3ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1984",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.573",
+                "mMessage": "GC_CONCURRENT freed 39K, 2% free 13437K/13624K, paused 1ms+0ms, total 4ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "02-27 08:29:14.661",
+                "mMessage": "Captured screenshot \u0027clear_state\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.725",
+                "mMessage": "GC_EXPLICIT freed 3575K, 2% free 9874K/10068K, paused 1ms+1ms, total 8ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.729",
+                "mMessage": "GC_EXPLICIT freed 1K, 2% free 9873K/10068K, paused 0ms+0ms, total 3ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:29:14.729",
+                "mMessage": "finished: testShouldShowEmptyMessage(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest",
+            "methodName": "testTitleText"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:29:14.729",
+                "mMessage": "started: testTitleText(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "1980",
+                "mTid": "1980",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "02-27 08:29:14.865",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.953",
+                "mMessage": "GC_EXPLICIT freed 166K, 3% free 9890K/10108K, paused 0ms+1ms, total 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.957",
+                "mMessage": "GC_EXPLICIT freed 19K, 3% free 9871K/10108K, paused 0ms+0ms, total 5ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:29:14.957",
+                "mMessage": "finished: testTitleText(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListTaskerTest",
+            "methodName": "testGatherInstalledAppList"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:29:14.957",
+                "mMessage": "started: testGatherInstalledAppList(io.github.importre.android.instrumenttestdemo.applist.AppListTaskerTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.965",
+                "mMessage": "GC_EXPLICIT freed 12K, 3% free 9867K/10108K, paused 0ms+0ms, total 4ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 08:29:14.969",
+                "mMessage": "GC_EXPLICIT freed \u003c1K, 3% free 9866K/10108K, paused 0ms+1ms, total 6ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "1980",
+                "mTid": "1992",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 08:29:14.969",
+                "mMessage": "finished: testGatherInstalledAppList(io.github.importre.android.instrumenttestdemo.applist.AppListTaskerTest)"
+              }
+            ]
+          }
+        ]
+      ],
+      "started": 1393489703666,
+      "duration": 50,
+      "exceptions": []
+    },
+    "08dc66dd": {
+      "installFailed": false,
+      "deviceDetails": {
+        "model": "Nexus 7",
+        "manufacturer": "asus",
         "version": "4.4.2",
         "apiLevel": 19,
         "language": "en",
@@ -462,191 +2447,92 @@
             "log": [
               {
                 "mLogLevel": "INFO",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 14:09:34.093",
+                "mTime": "02-27 17:28:25.729",
                 "mMessage": "started: testNavigationModeShouldBeStandard(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 14:09:34.093",
+                "mTime": "02-27 17:28:25.729",
                 "mMessage": "setUp"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3371",
+                "mPid": "27516",
+                "mTid": "27520",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:34.417",
-                "mMessage": "GC_FOR_ALLOC freed 165K, 7% free 3445K/3676K, paused 3ms, total 3ms"
-              },
-              {
-                "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:34.421",
-                "mMessage": "GC_FOR_ALLOC freed 86K, 8% free 3666K/3984K, paused 2ms, total 2ms"
+                "mTime": "02-27 17:28:25.779",
+                "mMessage": "GC_CONCURRENT freed 251K, 3% free 9209K/9492K, paused 1ms+1ms, total 16ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "3371",
-                "mTid": "3371",
+                "mPid": "27516",
+                "mTid": "27516",
                 "mAppName": "",
-                "mTag": "dalvikvm-heap",
-                "mTime": "02-25 14:09:34.425",
-                "mMessage": "Grow heap (frag case) to 6.056MB for 2536932-byte allocation"
+                "mTag": "Adreno-EGL",
+                "mTime": "02-27 17:28:25.809",
+                "mMessage": "\u003cqeglDrvAPI_eglInitialize:320\u003e: EGL 1.4 QUALCOMM Build: I0404c4692afb8623f95c43aeb6d5e13ed4b30ddbDate: 11/06/13"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3381",
-                "mAppName": "",
-                "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:34.429",
-                "mMessage": "GC_FOR_ALLOC freed \u003c1K, 5% free 6143K/6464K, paused 4ms, total 4ms"
-              },
-              {
-                "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "libEGL",
-                "mTime": "02-25 14:09:34.465",
-                "mMessage": "loaded /system/lib/egl/libEGL_genymotion.so"
-              },
-              {
-                "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "",
-                "mTime": "02-25 14:09:34.465",
-                "mMessage": "HostConnection::get() New Host Connection established 0xb86b9db8, tid 3371"
-              },
-              {
-                "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "libEGL",
-                "mTime": "02-25 14:09:34.481",
-                "mMessage": "loaded /system/lib/egl/libGLESv1_CM_genymotion.so"
-              },
-              {
-                "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "libEGL",
-                "mTime": "02-25 14:09:34.481",
-                "mMessage": "loaded /system/lib/egl/libGLESv2_genymotion.so"
-              },
-              {
-                "mLogLevel": "WARN",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "EGL_genymotion",
-                "mTime": "02-25 14:09:34.509",
-                "mMessage": "eglSurfaceAttrib not implemented"
-              },
-              {
-                "mLogLevel": "ERROR",
-                "mPid": "3371",
-                "mTid": "3371",
+                "mPid": "27516",
+                "mTid": "27516",
                 "mAppName": "",
                 "mTag": "OpenGLRenderer",
-                "mTime": "02-25 14:09:34.509",
-                "mMessage": "Getting MAX_TEXTURE_SIZE from GradienCache"
-              },
-              {
-                "mLogLevel": "ERROR",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "OpenGLRenderer",
-                "mTime": "02-25 14:09:34.509",
-                "mMessage": "MAX_TEXTURE_SIZE: 16384"
-              },
-              {
-                "mLogLevel": "ERROR",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "OpenGLRenderer",
-                "mTime": "02-25 14:09:34.513",
-                "mMessage": "Getting MAX_TEXTURE_SIZE from Caches::initConstraints()"
-              },
-              {
-                "mLogLevel": "ERROR",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "OpenGLRenderer",
-                "mTime": "02-25 14:09:34.513",
-                "mMessage": "MAX_TEXTURE_SIZE: 16384"
-              },
-              {
-                "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "OpenGLRenderer",
-                "mTime": "02-25 14:09:34.513",
+                "mTime": "02-27 17:28:25.849",
                 "mMessage": "Enabling debug mode 0"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 14:09:34.605",
+                "mTime": "02-27 17:28:25.929",
                 "mMessage": "testNavigationModeShouldBeStandard"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 14:09:34.605",
+                "mTime": "02-27 17:28:25.929",
                 "mMessage": "tearDown"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:34.913",
-                "mMessage": "GC_EXPLICIT freed 18K, 4% free 6233K/6464K, paused 0ms+1ms, total 3ms"
+                "mTime": "02-27 17:28:25.969",
+                "mMessage": "GC_EXPLICIT freed 60K, 4% free 9187K/9492K, paused 1ms+2ms, total 22ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:34.917",
-                "mMessage": "GC_EXPLICIT freed 4K, 4% free 6229K/6464K, paused 1ms+1ms, total 4ms"
+                "mTime": "02-27 17:28:25.989",
+                "mMessage": "GC_EXPLICIT freed 1K, 4% free 9185K/9492K, paused 2ms+3ms, total 19ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 14:09:34.917",
+                "mTime": "02-27 17:28:25.989",
                 "mMessage": "finished: testNavigationModeShouldBeStandard(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
               }
             ]
@@ -664,65 +2550,56 @@
             "log": [
               {
                 "mLogLevel": "INFO",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 14:09:34.917",
+                "mTime": "02-27 17:28:25.989",
                 "mMessage": "started: testShouldHaveContainers(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 14:09:34.917",
+                "mTime": "02-27 17:28:25.999",
                 "mMessage": "setUp"
               },
               {
-                "mLogLevel": "WARN",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "EGL_genymotion",
-                "mTime": "02-25 14:09:35.001",
-                "mMessage": "eglSurfaceAttrib not implemented"
-              },
-              {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 14:09:35.065",
+                "mTime": "02-27 17:28:26.210",
                 "mMessage": "tearDown"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:35.369",
-                "mMessage": "GC_EXPLICIT freed 100K, 5% free 6284K/6548K, paused 1ms+0ms, total 4ms"
+                "mTime": "02-27 17:28:26.250",
+                "mMessage": "GC_EXPLICIT freed 57K, 3% free 9241K/9492K, paused 1ms+2ms, total 20ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:35.381",
-                "mMessage": "GC_EXPLICIT freed 4K, 5% free 6279K/6548K, paused 0ms+0ms, total 8ms"
+                "mTime": "02-27 17:28:26.280",
+                "mMessage": "GC_EXPLICIT freed 5K, 3% free 9236K/9492K, paused 2ms+2ms, total 23ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 14:09:35.381",
+                "mTime": "02-27 17:28:26.280",
                 "mMessage": "finished: testShouldHaveContainers(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
               }
             ]
@@ -740,74 +2617,65 @@
             "log": [
               {
                 "mLogLevel": "INFO",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 14:09:35.381",
+                "mTime": "02-27 17:28:26.280",
                 "mMessage": "started: testShouldHaveTitleInActionBar(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 14:09:35.381",
+                "mTime": "02-27 17:28:26.280",
                 "mMessage": "setUp"
               },
               {
-                "mLogLevel": "WARN",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "EGL_genymotion",
-                "mTime": "02-25 14:09:35.453",
-                "mMessage": "eglSurfaceAttrib not implemented"
-              },
-              {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 14:09:35.553",
+                "mTime": "02-27 17:28:26.470",
                 "mMessage": "testShouldHaveTitleInActionBar"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "MainActivityTest",
-                "mTime": "02-25 14:09:35.553",
+                "mTime": "02-27 17:28:26.470",
                 "mMessage": "tearDown"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:35.857",
-                "mMessage": "GC_EXPLICIT freed 100K, 4% free 6334K/6548K, paused 0ms+0ms, total 3ms"
+                "mTime": "02-27 17:28:26.520",
+                "mMessage": "GC_EXPLICIT freed 56K, 3% free 9291K/9492K, paused 1ms+3ms, total 21ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:35.865",
-                "mMessage": "GC_EXPLICIT freed 5K, 4% free 6329K/6548K, paused 0ms+1ms, total 5ms"
+                "mTime": "02-27 17:28:26.540",
+                "mMessage": "GC_EXPLICIT freed 5K, 3% free 9286K/9492K, paused 2ms+2ms, total 24ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 14:09:35.865",
+                "mTime": "02-27 17:28:26.540",
                 "mMessage": "finished: testShouldHaveTitleInActionBar(io.github.importre.android.instrumenttestdemo.MainActivityTest)"
               }
             ]
@@ -825,47 +2693,38 @@
             "log": [
               {
                 "mLogLevel": "INFO",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 14:09:35.869",
+                "mTime": "02-27 17:28:26.550",
                 "mMessage": "started: testGetViewMustBeNotNull(io.github.importre.android.instrumenttestdemo.MainFragmentTest)"
               },
               {
-                "mLogLevel": "WARN",
-                "mPid": "3371",
-                "mTid": "3371",
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
-                "mTag": "EGL_genymotion",
-                "mTime": "02-25 14:09:36.269",
-                "mMessage": "eglSurfaceAttrib not implemented"
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:26.900",
+                "mMessage": "GC_EXPLICIT freed 57K, 2% free 9341K/9492K, paused 2ms+2ms, total 22ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:36.641",
-                "mMessage": "GC_EXPLICIT freed 158K, 4% free 6326K/6548K, paused 0ms+1ms, total 3ms"
-              },
-              {
-                "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
-                "mAppName": "",
-                "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:36.649",
-                "mMessage": "GC_EXPLICIT freed 94K, 5% free 6231K/6548K, paused 1ms+1ms, total 4ms"
+                "mTime": "02-27 17:28:26.920",
+                "mMessage": "GC_EXPLICIT freed 5K, 2% free 9336K/9492K, paused 1ms+3ms, total 21ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 14:09:36.649",
+                "mTime": "02-27 17:28:26.920",
                 "mMessage": "finished: testGetViewMustBeNotNull(io.github.importre.android.instrumenttestdemo.MainFragmentTest)"
               }
             ]
@@ -880,96 +2739,880 @@
             "status": "PASS",
             "duration": 1,
             "screenshots": [
-              "/Users/importre/Projects/InstrumentTestDemo/spoon-output/image/192_168_56_101_5555/io.github.importre.android.instrumenttestdemo.MainFragmentTest/testShouldHaveListView/1393337377119_initial_state.png"
+              "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/08dc66dd/io.github.importre.android.instrumenttestdemo.MainFragmentTest/testShouldHaveListView/1393489707137_initial_state.png"
             ],
             "log": [
               {
                 "mLogLevel": "INFO",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 14:09:36.649",
+                "mTime": "02-27 17:28:26.920",
                 "mMessage": "started: testShouldHaveListView(io.github.importre.android.instrumenttestdemo.MainFragmentTest)"
               },
               {
-                "mLogLevel": "WARN",
-                "mPid": "3371",
-                "mTid": "3371",
-                "mAppName": "",
-                "mTag": "EGL_genymotion",
-                "mTime": "02-25 14:09:37.061",
-                "mMessage": "eglSurfaceAttrib not implemented"
-              },
-              {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:37.117",
-                "mMessage": "GC_FOR_ALLOC freed 118K, 4% free 6329K/6588K, paused 3ms, total 3ms"
+                "mTime": "02-27 17:28:27.141",
+                "mMessage": "GC_FOR_ALLOC freed 126K, 2% free 9350K/9512K, paused 13ms, total 13ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "dalvikvm-heap",
-                "mTime": "02-25 14:09:37.121",
-                "mMessage": "Grow heap (frag case) to 13.556MB for 7672332-byte allocation"
+                "mTime": "02-27 17:28:27.161",
+                "mMessage": "Grow heap (frag case) to 17.510MB for 8755216-byte allocation"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27525",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:37.125",
-                "mMessage": "GC_FOR_ALLOC freed 0K, 2% free 13821K/14084K, paused 2ms, total 2ms"
+                "mTime": "02-27 17:28:27.171",
+                "mMessage": "GC_FOR_ALLOC freed 7K, 1% free 17892K/18064K, paused 13ms, total 13ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:27.191",
+                "mMessage": "GC_CONCURRENT freed 4K, 1% free 17903K/18064K, paused 3ms+2ms, total 19ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "Spoon",
-                "mTime": "02-25 14:09:37.349",
+                "mTime": "02-27 17:28:28.172",
                 "mMessage": "Captured screenshot \u0027initial_state\u0027."
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:37.669",
-                "mMessage": "GC_EXPLICIT freed 7596K, 6% free 6240K/6584K, paused 0ms+0ms, total 12ms"
+                "mTime": "02-27 17:28:28.212",
+                "mMessage": "GC_EXPLICIT freed 8699K, 4% free 9205K/9508K, paused 1ms+3ms, total 24ms"
               },
               {
                 "mLogLevel": "DEBUG",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "dalvikvm",
-                "mTime": "02-25 14:09:37.673",
-                "mMessage": "GC_EXPLICIT freed 5K, 6% free 6235K/6584K, paused 0ms+0ms, total 3ms"
+                "mTime": "02-27 17:28:28.232",
+                "mMessage": "GC_EXPLICIT freed 14K, 4% free 9191K/9508K, paused 2ms+2ms, total 20ms"
               },
               {
                 "mLogLevel": "INFO",
-                "mPid": "3371",
-                "mTid": "3385",
+                "mPid": "27516",
+                "mTid": "27529",
                 "mAppName": "",
                 "mTag": "TestRunner",
-                "mTime": "02-25 14:09:37.673",
+                "mTime": "02-27 17:28:28.232",
                 "mMessage": "finished: testShouldHaveListView(io.github.importre.android.instrumenttestdemo.MainFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testAddItem"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:28.242",
+                "mMessage": "started: testAddItem(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:28.422",
+                "mMessage": "GC_CONCURRENT freed 59K, 2% free 9534K/9708K, paused 1ms+2ms, total 16ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27561",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:28.422",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 11ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:28.502",
+                "mMessage": "GC_EXPLICIT freed 24K, 2% free 9899K/10028K, paused 2ms+2ms, total 21ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:28.522",
+                "mMessage": "GC_EXPLICIT freed 11K, 2% free 10044K/10188K, paused 2ms+4ms, total 23ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:28.522",
+                "mMessage": "finished: testAddItem(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetCount"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:28.532",
+                "mMessage": "started: testGetCount(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:28.592",
+                "mMessage": "GC_CONCURRENT freed 26K, 2% free 10451K/10584K, paused 2ms+1ms, total 12ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:28.642",
+                "mMessage": "GC_CONCURRENT freed 25K, 1% free 10895K/10984K, paused 1ms+1ms, total 15ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27561",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:28.642",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 6ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:28.772",
+                "mMessage": "GC_CONCURRENT freed 2034K, 19% free 9373K/11440K, paused 1ms+3ms, total 20ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:28.852",
+                "mMessage": "GC_EXPLICIT freed 82K, 15% free 9742K/11440K, paused 3ms+3ms, total 25ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:28.872",
+                "mMessage": "GC_EXPLICIT freed 8K, 15% free 9810K/11440K, paused 2ms+2ms, total 21ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:28.872",
+                "mMessage": "finished: testGetCount(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetItem"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:28.872",
+                "mMessage": "started: testGetItem(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:28.932",
+                "mMessage": "GC_CONCURRENT freed 29K, 11% free 10213K/11440K, paused 1ms+2ms, total 15ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:29.052",
+                "mMessage": "GC_CONCURRENT freed 76K, 8% free 10631K/11440K, paused 1ms+2ms, total 15ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:29.052",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 12ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:29.072",
+                "mMessage": "GC_EXPLICIT freed 18K, 6% free 10768K/11440K, paused 2ms+2ms, total 20ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:29.092",
+                "mMessage": "GC_EXPLICIT freed 6K, 5% free 10877K/11440K, paused 2ms+3ms, total 20ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:29.092",
+                "mMessage": "finished: testGetItem(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetView"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:29.102",
+                "mMessage": "started: testGetView(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:29.233",
+                "mMessage": "GC_CONCURRENT freed 71K, 1% free 11373K/11484K, paused 2ms+2ms, total 18ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:29.363",
+                "mMessage": "GC_EXPLICIT freed 211K, 3% free 11354K/11600K, paused 1ms+3ms, total 22ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:29.393",
+                "mMessage": "GC_EXPLICIT freed 3K, 3% free 11350K/11600K, paused 2ms+4ms, total 25ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:29.393",
+                "mMessage": "finished: testGetView(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetViewRecycle"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:29.393",
+                "mMessage": "started: testGetViewRecycle(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:29.863",
+                "mMessage": "GC_EXPLICIT freed 206K, 3% free 11453K/11696K, paused 3ms+4ms, total 30ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:29.883",
+                "mMessage": "GC_EXPLICIT freed 12K, 3% free 11441K/11696K, paused 2ms+2ms, total 26ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:29.883",
+                "mMessage": "finished: testGetViewRecycle(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest",
+            "methodName": "testGetViewRecycleUsingViewHolderPattern"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:29.893",
+                "mMessage": "started: testGetViewRecycleUsingViewHolderPattern(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:30.133",
+                "mMessage": "GC_EXPLICIT freed 207K, 3% free 11544K/11788K, paused 2ms+2ms, total 24ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:30.163",
+                "mMessage": "GC_EXPLICIT freed 12K, 3% free 11532K/11788K, paused 1ms+3ms, total 22ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:30.163",
+                "mMessage": "finished: testGetViewRecycleUsingViewHolderPattern(io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest",
+            "methodName": "testGetViewMustBeNotNull"
+          },
+          {
+            "status": "PASS",
+            "duration": 1,
+            "screenshots": [
+              "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/08dc66dd/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testGetViewMustBeNotNull/1393489710376_initial_state.png"
+            ],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:30.163",
+                "mMessage": "started: testGetViewMustBeNotNull(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:30.384",
+                "mMessage": "GC_FOR_ALLOC freed 217K, 3% free 11636K/11888K, paused 15ms, total 15ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "02-27 17:28:30.404",
+                "mMessage": "Grow heap (frag case) to 19.743MB for 8755216-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27525",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:30.424",
+                "mMessage": "GC_FOR_ALLOC freed 7K, 2% free 20178K/20440K, paused 16ms, total 16ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:30.444",
+                "mMessage": "GC_CONCURRENT freed 4K, 2% free 20174K/20440K, paused 3ms+4ms, total 20ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "02-27 17:28:31.555",
+                "mMessage": "Captured screenshot \u0027initial_state\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:31.595",
+                "mMessage": "GC_EXPLICIT freed 8938K, 6% free 11249K/11872K, paused 3ms+3ms, total 27ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:31.625",
+                "mMessage": "GC_EXPLICIT freed 43K, 6% free 11206K/11872K, paused 2ms+2ms, total 21ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:31.625",
+                "mMessage": "finished: testGetViewMustBeNotNull(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest",
+            "methodName": "testShouldShowEmptyMessage"
+          },
+          {
+            "status": "PASS",
+            "duration": 2,
+            "screenshots": [
+              "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/08dc66dd/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage/1393489711976_initial_state.png",
+              "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/08dc66dd/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage/1393489713125_clear_state.png"
+            ],
+            "animatedGif": "/Users/importrex/Projects/InstrumentTestDemo/spoon-output/image/08dc66dd/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage.gif",
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:31.625",
+                "mMessage": "started: testShouldShowEmptyMessage(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:31.985",
+                "mMessage": "GC_FOR_ALLOC freed 167K, 5% free 11356K/11872K, paused 14ms, total 14ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "02-27 17:28:32.005",
+                "mMessage": "Grow heap (frag case) to 19.469MB for 8755216-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27525",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:32.015",
+                "mMessage": "GC_FOR_ALLOC freed 2K, 3% free 19903K/20424K, paused 14ms, total 14ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:32.035",
+                "mMessage": "GC_CONCURRENT freed 5K, 3% free 19899K/20424K, paused 2ms+2ms, total 23ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "02-27 17:28:33.106",
+                "mMessage": "Captured screenshot \u0027initial_state\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:33.126",
+                "mMessage": "GC_FOR_ALLOC freed 8576K, 5% free 11349K/11872K, paused 17ms, total 17ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "02-27 17:28:33.146",
+                "mMessage": "Grow heap (frag case) to 19.462MB for 8755216-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27525",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:33.156",
+                "mMessage": "GC_FOR_ALLOC freed 142K, 4% free 19757K/20424K, paused 15ms, total 15ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27516",
+                "mAppName": "",
+                "mTag": "AppListFragmentTest",
+                "mTime": "02-27 17:28:33.156",
+                "mMessage": "clear adapter"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:33.176",
+                "mMessage": "GC_CONCURRENT freed 1379K, 11% free 18378K/20424K, paused 3ms+4ms, total 21ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "02-27 17:28:34.117",
+                "mMessage": "Captured screenshot \u0027clear_state\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.157",
+                "mMessage": "GC_EXPLICIT freed 9162K, 23% free 9229K/11868K, paused 2ms+2ms, total 23ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.177",
+                "mMessage": "GC_EXPLICIT freed 1K, 23% free 9228K/11868K, paused 1ms+3ms, total 19ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:34.177",
+                "mMessage": "finished: testShouldShowEmptyMessage(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest",
+            "methodName": "testTitleText"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:34.177",
+                "mMessage": "started: testTitleText(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.358",
+                "mMessage": "GC_CONCURRENT freed 64K, 19% free 9640K/11868K, paused 2ms+2ms, total 17ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.388",
+                "mMessage": "GC_EXPLICIT freed 19K, 18% free 9779K/11868K, paused 2ms+2ms, total 23ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.408",
+                "mMessage": "GC_EXPLICIT freed 7K, 17% free 9887K/11868K, paused 1ms+2ms, total 21ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:34.408",
+                "mMessage": "finished: testTitleText(io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "io.github.importre.android.instrumenttestdemo.applist.AppListTaskerTest",
+            "methodName": "testGatherInstalledAppList"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:34.418",
+                "mMessage": "started: testGatherInstalledAppList(io.github.importre.android.instrumenttestdemo.applist.AppListTaskerTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.498",
+                "mMessage": "GC_CONCURRENT freed 34K, 13% free 10325K/11868K, paused 1ms+1ms, total 14ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.558",
+                "mMessage": "GC_CONCURRENT freed 31K, 10% free 10798K/11868K, paused 1ms+2ms, total 17ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27588",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.558",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 4ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27520",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.648",
+                "mMessage": "GC_CONCURRENT freed 27K, 6% free 11266K/11868K, paused 1ms+1ms, total 14ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.648",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 10ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.668",
+                "mMessage": "GC_EXPLICIT freed 1975K, 22% free 9290K/11868K, paused 2ms+3ms, total 22ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "02-27 17:28:34.688",
+                "mMessage": "GC_EXPLICIT freed 10K, 22% free 9279K/11868K, paused 2ms+2ms, total 21ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "27516",
+                "mTid": "27529",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "02-27 17:28:34.688",
+                "mMessage": "finished: testGatherInstalledAppList(io.github.importre.android.instrumenttestdemo.applist.AppListTaskerTest)"
               }
             ]
           }
         ]
       ],
-      "started": 1393337373929,
-      "duration": 3,
+      "started": 1393489703689,
+      "duration": 9,
       "exceptions": []
     }
   }

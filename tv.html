@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Spoon Execution</title>
+        <title>Instrumentation Test Demo</title>
         <link href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold" rel="stylesheet">
         <link href="static/bootstrap.min.css" rel="stylesheet">
         <link href="static/bootstrap-responsive.min.css" rel="stylesheet">
@@ -34,7 +34,7 @@
                     <!-- Overall test information -->
                     <div id="overall-test-info">
                         <p>Displaying test <span id="current-test-number">0</span> of <span id="total-test-size">0</span></p>
-                        <p>Tests executed on <span id="test-date">Tuesday, February 25, 11:09 PM</span>, in <span id="duration">9 seconds</span></p>
+                        <p>Tests executed on <span id="test-date">Thursday, February 27, 5:28 PM</span>, in <span id="duration">56 seconds</span></p>
                     </div>
                 </div>
                 <div id="slider-wrapper" class="theme-default span6">
@@ -47,8 +47,8 @@
             var devices = [
   {
     "serial": "192_168_56_101_5555",
-    "name": "Genymotion Nexus 5 - 4.4.2 - API 19 - 1080x1920",
-    "details": "Running Android 4.4.2 (API 19) with locale en-US",
+    "name": "Genymotion Nexus 4 - 4.2.2 - API 17 - 768x1280",
+    "details": "Running Android 4.2.2 (API 17) with locale en-US",
     "testResults": [
       {
         "classSimpleName": "MainFragmentTest",
@@ -57,9 +57,40 @@
         "status": "pass",
         "screenshots": [
           {
-            "id": 1,
-            "path": "image/192_168_56_101_5555/io.github.importre.android.instrumenttestdemo.MainFragmentTest/testShouldHaveListView/1393337377119_initial_state.png",
+            "id": 4,
+            "path": "image/192_168_56_101_5555/io.github.importre.android.instrumenttestdemo.MainFragmentTest/testShouldHaveListView/1393489724097_initial_state.png",
             "caption": "Initial State"
+          }
+        ]
+      },
+      {
+        "classSimpleName": "AppListFragmentTest",
+        "methodPrettyName": "Get View Must Be Not Null",
+        "serial": "192_168_56_101_5555",
+        "status": "pass",
+        "screenshots": [
+          {
+            "id": 5,
+            "path": "image/192_168_56_101_5555/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testGetViewMustBeNotNull/1393489754041_initial_state.png",
+            "caption": "Initial State"
+          }
+        ]
+      },
+      {
+        "classSimpleName": "AppListFragmentTest",
+        "methodPrettyName": "Should Show Empty Message",
+        "serial": "192_168_56_101_5555",
+        "status": "pass",
+        "screenshots": [
+          {
+            "id": 6,
+            "path": "image/192_168_56_101_5555/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage/1393489754442_initial_state.png",
+            "caption": "Initial State"
+          },
+          {
+            "id": 7,
+            "path": "image/192_168_56_101_5555/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage/1393489754564_clear_state.png",
+            "caption": "Clear State"
           }
         ]
       }
@@ -78,8 +109,90 @@
         "screenshots": [
           {
             "id": 0,
-            "path": "image/048233d1d151e3cc/io.github.importre.android.instrumenttestdemo.MainFragmentTest/testShouldHaveListView/1393337379583_initial_state.png",
+            "path": "image/048233d1d151e3cc/io.github.importre.android.instrumenttestdemo.MainFragmentTest/testShouldHaveListView/1393489713785_initial_state.png",
             "caption": "Initial State"
+          }
+        ]
+      },
+      {
+        "classSimpleName": "AppListFragmentTest",
+        "methodPrettyName": "Get View Must Be Not Null",
+        "serial": "048233d1d151e3cc",
+        "status": "pass",
+        "screenshots": [
+          {
+            "id": 1,
+            "path": "image/048233d1d151e3cc/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testGetViewMustBeNotNull/1393489717138_initial_state.png",
+            "caption": "Initial State"
+          }
+        ]
+      },
+      {
+        "classSimpleName": "AppListFragmentTest",
+        "methodPrettyName": "Should Show Empty Message",
+        "serial": "048233d1d151e3cc",
+        "status": "pass",
+        "screenshots": [
+          {
+            "id": 2,
+            "path": "image/048233d1d151e3cc/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage/1393489718186_initial_state.png",
+            "caption": "Initial State"
+          },
+          {
+            "id": 3,
+            "path": "image/048233d1d151e3cc/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage/1393489718798_clear_state.png",
+            "caption": "Clear State"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "serial": "08dc66dd",
+    "name": "asus Nexus 7",
+    "details": "Running Android 4.4.2 (API 19) with locale en-US",
+    "testResults": [
+      {
+        "classSimpleName": "MainFragmentTest",
+        "methodPrettyName": "Should Have List View",
+        "serial": "08dc66dd",
+        "status": "pass",
+        "screenshots": [
+          {
+            "id": 8,
+            "path": "image/08dc66dd/io.github.importre.android.instrumenttestdemo.MainFragmentTest/testShouldHaveListView/1393489707137_initial_state.png",
+            "caption": "Initial State"
+          }
+        ]
+      },
+      {
+        "classSimpleName": "AppListFragmentTest",
+        "methodPrettyName": "Get View Must Be Not Null",
+        "serial": "08dc66dd",
+        "status": "pass",
+        "screenshots": [
+          {
+            "id": 9,
+            "path": "image/08dc66dd/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testGetViewMustBeNotNull/1393489710376_initial_state.png",
+            "caption": "Initial State"
+          }
+        ]
+      },
+      {
+        "classSimpleName": "AppListFragmentTest",
+        "methodPrettyName": "Should Show Empty Message",
+        "serial": "08dc66dd",
+        "status": "pass",
+        "screenshots": [
+          {
+            "id": 10,
+            "path": "image/08dc66dd/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage/1393489711976_initial_state.png",
+            "caption": "Initial State"
+          },
+          {
+            "id": 11,
+            "path": "image/08dc66dd/io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest/testShouldShowEmptyMessage/1393489713125_clear_state.png",
+            "caption": "Clear State"
           }
         ]
       }
