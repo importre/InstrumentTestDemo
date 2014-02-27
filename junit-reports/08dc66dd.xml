@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="io.github.importre.android.instrumenttestdemo.test" tests="15" failures="0" errors="0" time="8.965" timestamp="2014-02-27T08:28:37" hostname="localhost">
+  <properties />
+  <testcase name="testNavigationModeShouldBeStandard" classname="io.github.importre.android.instrumenttestdemo.MainActivityTest" time="0.261" />
+  <testcase name="testShouldHaveContainers" classname="io.github.importre.android.instrumenttestdemo.MainActivityTest" time="0.284" />
+  <testcase name="testShouldHaveTitleInActionBar" classname="io.github.importre.android.instrumenttestdemo.MainActivityTest" time="0.26" />
+  <testcase name="testGetViewMustBeNotNull" classname="io.github.importre.android.instrumenttestdemo.MainFragmentTest" time="0.386" />
+  <testcase name="testShouldHaveListView" classname="io.github.importre.android.instrumenttestdemo.MainFragmentTest" time="1.299" />
+  <testcase name="testAddItem" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.286" />
+  <testcase name="testGetCount" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.362" />
+  <testcase name="testGetItem" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.205" />
+  <testcase name="testGetView" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.285" />
+  <testcase name="testGetViewRecycle" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.491" />
+  <testcase name="testGetViewRecycleUsingViewHolderPattern" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.259" />
+  <testcase name="testGetViewMustBeNotNull" classname="io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest" time="1.446" />
+  <testcase name="testShouldShowEmptyMessage" classname="io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest" time="2.559" />
+  <testcase name="testTitleText" classname="io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest" time="0.234" />
+  <testcase name="testGatherInstalledAppList" classname="io.github.importre.android.instrumenttestdemo.applist.AppListTaskerTest" time="0.285" />
+</testsuite>
