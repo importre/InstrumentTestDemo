@@ -1,19 +1,28 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="io.github.importre.android.instrumenttestdemo.test" tests="15" failures="0" errors="0" time="49.965" timestamp="2014-02-27T08:29:15" hostname="localhost">
+<testsuite name="io.github.importre.android.instrumenttestdemo.test" tests="24" failures="0" errors="0" time="21.291" timestamp="2014-03-03T09:35:28" hostname="localhost">
   <properties />
-  <testcase name="testNavigationModeShouldBeStandard" classname="io.github.importre.android.instrumenttestdemo.MainActivityTest" time="0.46" />
-  <testcase name="testShouldHaveContainers" classname="io.github.importre.android.instrumenttestdemo.MainActivityTest" time="0.23" />
-  <testcase name="testShouldHaveTitleInActionBar" classname="io.github.importre.android.instrumenttestdemo.MainActivityTest" time="0.228" />
-  <testcase name="testGetViewMustBeNotNull" classname="io.github.importre.android.instrumenttestdemo.MainFragmentTest" time="17.913" />
-  <testcase name="testShouldHaveListView" classname="io.github.importre.android.instrumenttestdemo.MainFragmentTest" time="0.498" />
-  <testcase name="testAddItem" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.311" />
-  <testcase name="testGetCount" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="10.183" />
-  <testcase name="testGetItem" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.304" />
-  <testcase name="testGetView" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.254" />
-  <testcase name="testGetViewRecycle" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="17.971" />
-  <testcase name="testGetViewRecycleUsingViewHolderPattern" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.435" />
-  <testcase name="testGetViewMustBeNotNull" classname="io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest" time="0.409" />
-  <testcase name="testShouldShowEmptyMessage" classname="io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest" time="0.514" />
-  <testcase name="testTitleText" classname="io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest" time="0.228" />
+  <testcase name="testNavigationModeShouldBeStandard" classname="io.github.importre.android.instrumenttestdemo.MainActivityTest" time="0.715" />
+  <testcase name="testShouldHaveContainers" classname="io.github.importre.android.instrumenttestdemo.MainActivityTest" time="0.331" />
+  <testcase name="testShouldHaveTitleInActionBar" classname="io.github.importre.android.instrumenttestdemo.MainActivityTest" time="0.383" />
+  <testcase name="testGetViewMustBeNotNull" classname="io.github.importre.android.instrumenttestdemo.MainFragmentTest" time="0.384" />
+  <testcase name="testShouldHaveListView" classname="io.github.importre.android.instrumenttestdemo.MainFragmentTest" time="0.536" />
+  <testcase name="testClickPlusButton" classname="io.github.importre.android.instrumenttestdemo.activity.ExampleActivityTest" time="4.094" />
+  <testcase name="testShouldNotBeNull" classname="io.github.importre.android.instrumenttestdemo.activity.ExampleActivityTest" time="0.309" />
+  <testcase name="testShouldRestoreViewsWhenRecreating" classname="io.github.importre.android.instrumenttestdemo.activity.ExampleActivityTest" time="2.06" />
+  <testcase name="testShouldShowCancelMessageIfResultIsCancel" classname="io.github.importre.android.instrumenttestdemo.activity.ExampleActivityTest" time="1.481" />
+  <testcase name="testShouldShowOkMessageIfResultIsOk" classname="io.github.importre.android.instrumenttestdemo.activity.ExampleActivityTest" time="1.434" />
+  <testcase name="testOddNumber" classname="io.github.importre.android.instrumenttestdemo.activity.SubExampleActivityTest" time="0.561" />
+  <testcase name="testShouldFinishWhenClickingCancelButton" classname="io.github.importre.android.instrumenttestdemo.activity.SubExampleActivityTest" time="1.56" />
+  <testcase name="testShouldFinishWhenClickingOkButton" classname="io.github.importre.android.instrumenttestdemo.activity.SubExampleActivityTest" time="1.363" />
+  <testcase name="testShouldNotBeNull" classname="io.github.importre.android.instrumenttestdemo.activity.SubExampleActivityTest" time="0.228" />
+  <testcase name="testAddItem" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="1.022" />
+  <testcase name="testGetCount" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.384" />
+  <testcase name="testGetItem" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.795" />
+  <testcase name="testGetView" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.307" />
+  <testcase name="testGetViewRecycle" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.36" />
+  <testcase name="testGetViewRecycleUsingViewHolderPattern" classname="io.github.importre.android.instrumenttestdemo.applist.AppListAdapterTest" time="0.306" />
+  <testcase name="testGetViewMustBeNotNull" classname="io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest" time="1.411" />
+  <testcase name="testShouldShowEmptyMessage" classname="io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest" time="0.895" />
+  <testcase name="testTitleText" classname="io.github.importre.android.instrumenttestdemo.applist.AppListFragmentTest" time="0.333" />
   <testcase name="testGatherInstalledAppList" classname="io.github.importre.android.instrumenttestdemo.applist.AppListTaskerTest" time="0.025" />
 </testsuite>
