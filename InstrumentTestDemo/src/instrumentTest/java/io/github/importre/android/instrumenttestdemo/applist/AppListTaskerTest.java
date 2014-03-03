@@ -3,8 +3,6 @@ package io.github.importre.android.instrumenttestdemo.applist;
 import android.test.ActivityInstrumentationTestCase2;
 
 import java.util.List;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeUnit;
 
 public class AppListTaskerTest extends ActivityInstrumentationTestCase2<AppListActivity> {
 

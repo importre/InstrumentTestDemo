@@ -21,6 +21,14 @@
         <activity
             android:name="io.github.importre.android.instrumenttestdemo.applist.AppListActivity"
             android:label="@string/applist" />
+
+        <activity
+            android:name=".activity.ExampleActivity"
+            android:label="@string/activity_example" />
+
+        <activity
+            android:name=".activity.SubExampleActivity"
+            android:label="@string/activity_sub_example" />
     </application>
 
 </manifest>

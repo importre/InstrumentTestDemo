@@ -2,7 +2,6 @@ package io.github.importre.android.instrumenttestdemo;
 
 import android.app.Fragment;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import io.github.importre.android.instrumenttestdemo.activity.ExampleActivity;
 import io.github.importre.android.instrumenttestdemo.applist.AppListActivity;
 
 public class MainFragment extends Fragment implements AdapterView.OnItemClickListener {
@@ -39,25 +39,42 @@ public class MainFragment extends Fragment implements AdapterView.OnItemClickLis
         listView.setOnItemClickListener(this);
     }
 
+    private static final int ITEM_APPLIST = 0;
+    private static final int ITEM_ACTIVITY = 1;
+
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         switch (position) {
-            case 0: // Application List
-                Resources resources = getResources();
-                boolean hasTwoPanes = resources.getBoolean(R.bool.has_two_panes);
-                if (hasTwoPanes) {
-                    MainActivity activity = (MainActivity) getActivity();
-                    if (activity != null) {
-                        activity.initDetailFragment();
-                    }
-                } else {
-                    Intent intent = new Intent(getActivity(), AppListActivity.class);
-                    startActivity(intent);
-                }
+            case MainFragment.ITEM_APPLIST:
+                onItemClickAppList();
+                break;
+            case MainFragment.ITEM_ACTIVITY:
+                onItemClickActivity();
                 break;
             default:
                 // do nothing
                 break;
         }
+    }
+
+    private void onItemClickAppList() {
+        Intent intent = new Intent(getActivity(), AppListActivity.class);
+        startActivity(intent);
+//        Resources resources = getResources();
+//        boolean hasTwoPanes = resources.getBoolean(R.bool.has_two_panes);
+//        if (hasTwoPanes) {
+//            MainActivity activity = (MainActivity) getActivity();
+//            if (activity != null) {
+//                activity.initDetailFragment();
+//            }
+//        } else {
+//            Intent intent = new Intent(getActivity(), AppListActivity.class);
+//            startActivity(intent);
+//        }
+    }
+
+    private void onItemClickActivity() {
+        Intent intent = new Intent(getActivity(), ExampleActivity.class);
+        startActivity(intent);
     }
 }

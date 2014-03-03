@@ -2,5 +2,6 @@
 <resources>
     <string-array name="menu">
         <item>@string/applist</item>
+        <item>@string/activity</item>
     </string-array>
 </resources>

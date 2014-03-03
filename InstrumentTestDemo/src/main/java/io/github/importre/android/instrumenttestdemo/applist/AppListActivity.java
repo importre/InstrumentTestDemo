@@ -8,9 +8,6 @@ import android.app.FragmentTransaction;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.ListAdapter;
-import android.widget.ListView;
 
 import java.util.List;
 

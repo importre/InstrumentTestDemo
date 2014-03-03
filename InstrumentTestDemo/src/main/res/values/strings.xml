@@ -6,5 +6,12 @@
     <string name="action_settings">Settings</string>
     <string name="applist">Application List</string>
     <string name="applist_title">%d</string>
+    <string name="activity">Activity</string>
+    <string name="btn_show_activity">Show Activity</string>
+    <string name="activity_example">Activity Example</string>
+    <string name="activity_sub_example">Activity Sub Example</string>
+    <string name="odd_number">ODD NUMBER</string>
+    <string name="even_number">EVEN NUMBER</string>
+    <string name="zero">0</string>
 
 </resources>
